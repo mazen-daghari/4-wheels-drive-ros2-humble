@@ -25,38 +25,11 @@ IMU: Stabilization and orientation feedback
 Compute: NVIDIA Jetson, Raspberry Pi, or x86-based PC
 
  Installation
- Clone the repository
-
-bash
-Copier
-Modifier
-git clone https://github.com/ 
-cd 4wd_ros2_nav
- Install dependencies
-
-
-rosdep install --from-paths src --ignore-src -r -y
- Build the workspace
-
-
-colcon build --symlink-install
-source install/setup.bash
- Running the System
-Launch the robot in simulation
-
-
-ros2 launch 
-Run autonomous navigation
 
 
 
-ros2 launch 
- Roadmap
- Add real-world deployment instructions
-
- Improve obstacle avoidance with AI-based perception
-
- Optimize control algorithms for rough terrain
+ ----------   still under construction ----------
+ 
 
  Contributions
 Open to contributions! Feel free to fork, open issues, or submit PRs.
